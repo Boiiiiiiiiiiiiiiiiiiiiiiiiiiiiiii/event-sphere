@@ -1,0 +1,23 @@
+.events_page {
+    width: 100%;
+    display: flex;
+    
+    &_wrapper {
+        width: $wrapper-width;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__events{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        gap: 10px;
+
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
